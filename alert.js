@@ -1,0 +1,1 @@
+alert('This is the start page of the JavaScript Detour! It links to various mini tasks.');

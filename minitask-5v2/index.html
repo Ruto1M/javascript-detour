@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Words Filter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Add Words One by One</h2>
+  <input type="text" id="wordInput" placeholder="Enter a word or number" />
+  <button onclick="addWord()">Add Word</button>
+
+  <h3>Words Added:</h3>
+  <ul id="wordList"></ul>
+
+  <button onclick="filterWords()" style="background-color:#007bff; margin-top: 15px;">Filter & Show Results</button>
+
+  <h3>Filtered Words:</h3>
+  <div id="filteredList">No results yet.</div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
